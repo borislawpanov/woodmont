@@ -1,0 +1,22 @@
+{
+  "pageHeader": {
+    "title": "{highlight} CFD Trading Solutions by Woodmont",
+    "titleHighlight": "AI-Powered",
+    "description": "Woodmont uses advanced AI to revolutionize CFD trading. Our algorithms analyze markets in real-time, providing intelligent insights for forex, commodities, indices, and crypto CFDs. Experience precision trading with our AI-driven platform."
+  },
+  "quickActions": {
+    "aiTechnology": "Our AI Technology",
+    "companyStory": "Company Story",
+    "startTrading": "Start Trading"
+  },
+  "aboutTextSection": {
+    "aiPoweredTitle": "AI-Powered CFD Trading",
+    "missionSubtitle": "We revolutionize CFD trading through advanced AI algorithms and real-time market intelligence. Our platform delivers precise trading signals, risk management, and automated execution—transforming how you trade global markets.",
+    "missionDescription": "Our mission is to democratize sophisticated CFD trading by providing traders with institutional-grade AI technology and analytics. We believe in empowering both retail and professional traders with intelligent automation, predictive market insights, and comprehensive risk management tools. By harnessing machine learning and algorithmic trading strategies, we deliver a competitive edge that adapts to market volatility while maintaining transparency and security in every trade.",
+    "founder": {
+      "name": "Alexandra Rodriguez",
+      "title": "Founder & CEO",
+      "quote": "We're transforming CFD trading through AI innovation—delivering intelligent automation and predictive analytics that turn market complexity into profitable opportunities for every trader."
+    }
+  }
+}

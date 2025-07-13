@@ -1,0 +1,26 @@
+{
+  "stocks": {
+    "pageHeader": {
+      "title": "Latest Stock Market Trends & Analysis",
+      "description": "Stay ahead with real-time insights into stock market trends and in-depth analysis. Our platform delivers actionable data and expert guidance to empower your investment decisions."
+    }
+  },
+  "crypto": {
+    "pageHeader": {
+      "title": "Latest Crypto Market Trends & Analysis", 
+      "description": "Stay ahead with real-time insights into cryptocurrency market trends and in-depth analysis. Our platform delivers actionable data to empower your investment decisions."
+    }
+  },
+  "commodities": {
+    "pageHeader": {
+      "title": "Latest Commodities Market Trends & Analysis",
+      "description": "Stay updated with real-time insights into commodities market trends and in-depth analysis. Our platform offers actionable data and expert guidance to enhance your investment decisions."
+    }
+  },
+  "forex": {
+    "pageHeader": {
+      "title": "Latest Forex Market Trends & Analysis",
+      "description": "Stay informed with real-time insights into forex market trends and in-depth analysis. Our platform provides actionable data and expert guidance to optimize your trading decisions."
+    }
+  }
+}

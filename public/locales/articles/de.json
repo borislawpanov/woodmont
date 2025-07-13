@@ -1,0 +1,50 @@
+{
+  "pageHeader": {
+    "title": "Trading lernen: Ein Anfängerleitfaden für den Handel",
+    "description": "Trading zu lernen passiert nicht über Nacht. Wenn Sie nicht die Zeit oder Motivation haben, sich gut im Trading zu schulen, dann ist es besser, gar nicht zu handeln. Es gibt kein Wunderrezept - um langfristig ein gewinnbringendes Trading-System zu erreichen, bedarf es viel Arbeit und Anstrengung. Dieser Leitfaden zum Trading-Lernen ist ein Beschleuniger für Ihre Ausbildung und gibt Ihnen alle wesentlichen Elemente, um Sie zu einem guten Trader zu machen."
+  },
+  "articleCard": {
+    "readArticle": "Artikel lesen"
+  },
+  "articlePage": {
+    "notFound": {
+      "title": "404 - Artikel nicht gefunden",
+      "description": "Der Artikel, den Sie suchen, existiert nicht oder wurde verschoben.",
+      "message": "Bitte überprüfen Sie die URL oder gehen Sie zurück zu unserer",
+      "linkText": "Artikelliste"
+    },
+    "navigation": {
+      "previous": "Vorheriger",
+      "next": "Nächster",
+      "firstArticle": "Dies ist der erste Artikel.",
+      "lastArticle": "Sie haben das Ende erreicht."
+    }
+  },
+  "articlesData": [
+    {
+      "title": "Trading für Anfänger - Lernen Sie die Grundlagen",
+      "description": "Der erste Schritt zum Erlernen des Tradings ist das Verstehen der Grundlagen. Dieser Leitfaden legt die Fundamente für einen strukturierten Ansatz mit realistischen Zielen.",
+      "slug": "trading-for-dummies"
+    },
+    {
+      "title": "Tipps, um ein guter Trader zu werden",
+      "description": "Erfolglos beim Trading? Nutzen Sie die Ratschläge erfahrenerer Trader. Erfahrung ist oft das, was den Unterschied ausmacht.",
+      "slug": "tips-for-becoming-a-good-trader"
+    },
+    {
+      "title": "Finden Sie Ihre eigene Trading-Strategie",
+      "description": "Ohne eine Trading-Strategie ist es unmöglich zu gewinnen. Dieser Abschnitt stellt verschiedene Strategien vor und hilft Ihnen, Ihre eigene zu entwickeln.",
+      "slug": "find-your-own-trading-strategy"
+    },
+    {
+      "title": "Geldmanagement im Trading",
+      "description": "Geldmanagement ist genauso wichtig wie Ihre Strategie. Wenn Sie Ihr Risiko nicht managen können, können Sie beim Trading nicht erfolgreich sein.",
+      "slug": "money-management-in-trading"
+    },
+    {
+      "title": "Psychologie im Trading",
+      "description": "Trading lernen bedeutet lernen, seine Emotionen zu kontrollieren. Von dem Moment an, wo Geld auf dem Spiel steht, werden Ihre Emotionen vervielfacht.",
+      "slug": "psychology-in-trading"
+    }
+  ]
+}

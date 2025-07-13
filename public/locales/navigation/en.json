@@ -1,0 +1,41 @@
+{
+  "menu": {
+    "aboutUs": "About Us",
+    "marketOverview": "Market Overview",
+    "learningMaterial": "Learning Material",
+    "contact": "Contact",
+    "contactUs": "Contact Us",
+    "plans": "Plans",
+    "ourTeam": "Our Team",
+    "signup": "Signup",
+    "login": "Login"
+  },
+  "marketOverview": {
+    "stocks": {
+      "title": "Stocks",
+      "description": "Latest stock market trends and analysis."
+    },
+    "crypto": {
+      "title": "Crypto",
+      "description": "Cryptocurrency prices and insights."
+    },
+    "forex": {
+      "title": "Forex",
+      "description": "Foreign exchange market updates."
+    },
+    "commodities": {
+      "title": "Commodities",
+      "description": "Commodity prices and forecasts."
+    }
+  },
+  "learningMaterial": {
+    "articles": {
+      "title": "Articles",
+      "description": "Educational content and insights."
+    },
+    "faq": {
+      "title": "FAQ",
+      "description": "Frequently asked questions answered."
+    }
+  }
+}

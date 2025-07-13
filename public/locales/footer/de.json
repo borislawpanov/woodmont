@@ -1,0 +1,23 @@
+{
+  "brand": {
+    "description": "Handeln Sie intelligenter mit Woodmonts {aiPlatform}. EchtzeitSignale, sichere Transaktionen und hochvertrauensvolle Strategien für Ihren finanziellen Erfolg.",
+    "aiPlatform": "KI-gesteuerte Plattform"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "faq": "FAQ",
+    "plans": "Pläne", 
+    "about": "Über uns",
+    "imprint": "Impressum",
+    "contact": "Kontakt"
+  },
+  "sections": {
+    "navigationTitle": "Seiten",
+    "contactTitle": "Kontaktinformationen"
+  },
+  "copyright": {
+    "text": "Copyright © 2025",
+    "allRightsReserved": ". Alle Rechte vorbehalten."
+  },
+  "companyName": "Woodmont"
+}

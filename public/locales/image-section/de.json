@@ -1,0 +1,30 @@
+{
+  "aiTradeSignalAnalysis": "KI-Handelssignal-Analyse",
+  "potentialProfit": "Potenzieller Gewinn",
+  "mainTitle": "Verwandeln Sie Marktrauschen in",
+  "mainTitleHighlight": "Umsetzbare Signale",
+  "description": "Unsere KI sagt nicht nur Trends voraus – sie liefert klare, datengesteuerte Handelssignale, die es Ihnen ermöglichen, mit Vertrauen und Präzision zu handeln.",
+  "features": {
+    "highPotentialTrades": {
+      "title": "Identifizieren Sie hochpotenzielle Trades:",
+      "description": "Entdecken Sie Gelegenheiten mit der höchsten Erfolgswahrscheinlichkeit."
+    },
+    "quantifyRisk": {
+      "title": "Risiko quantifizieren:",
+      "description": "Sehen Sie sofort das von der KI bewertete Risikoniveau für jeden potenziellen Trade."
+    },
+    "actOnConfidence": {
+      "title": "Mit Vertrauen handeln:",
+      "description": "Jedes Signal enthält einen Vertrauenswert, damit Sie die Überzeugung hinter jedem Schritt kennen."
+    }
+  },
+  "metrics": {
+    "aiConfidence": "KI-Vertrauen",
+    "riskLevel": "Risikoniveau"
+  },
+  "riskLevels": {
+    "Low": "Niedrig",
+    "Medium": "Mittel",
+    "High": "Hoch"
+  }
+}

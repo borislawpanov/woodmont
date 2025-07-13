@@ -1,0 +1,100 @@
+{
+  "sectionTitle": "Wählen Sie Ihren Plan",
+  "sectionDescription": "Wir bieten eine Vielzahl von Plänen, die zu Ihrem Handelsstil und Ihren finanziellen Zielen passen. Beginnen Sie mit dem für Sie passenden Plan.",
+  "categories": {
+    "standard": "Standard",
+    "advanced": "Erweitert",
+    "savings": "Sparpläne"
+  },
+  "common": {
+    "mostPopular": "Beliebteste",
+    "minimumDeposit": "Mindesteinzahlung",
+    "getStarted": "Jetzt starten"
+  },
+  "plans": {
+    "membershipFee": {
+      "header": "Mitgliedsbeitrag",
+      "description": "Einsteigerplan für neue Händler."
+    },
+    "bronze": {
+      "header": "Bronze",
+      "description": "Grundlegender Handel mit wesentlichen Tools."
+    },
+    "silver": {
+      "header": "Silber",
+      "description": "Verbesserter Handel mit höherem Hebel."
+    },
+    "gold": {
+      "header": "Gold",
+      "description": "Erweiterte Tools für ernsthafte Händler."
+    },
+    "platinum": {
+      "header": "Platin",
+      "description": "Premium-Funktionen mit hohem Hebel."
+    },
+    "diamond": {
+      "header": "Diamant",
+      "description": "Elite-Handel mit vollem Expertenzugang."
+    },
+    "premiumSavings": {
+      "header": "Premium-Sparplan",
+      "description": "Ultimativer Sparplan mit maximalen Vorteilen."
+    },
+    "ethereumSavings": {
+      "header": "Ethereum-Sparplan",
+      "description": "Sicheres Sparen mit monatlichen Belohnungen."
+    },
+    "btcSavings": {
+      "header": "BTC-Sparplan",
+      "description": "Hochrentables Sparen mit wöchentlichen Belohnungen."
+    }
+  },
+  "features": {
+    "marketReport": "Marktbericht",
+    "aiTradingTestSession": "KI-Trading (1 Testsitzung)",
+    "aiTradingTwoSessions": "KI-Trading (2 vollständige Sitzungen)",
+    "aiTradingFiveSessions": "KI-Trading (5 vollständige Sitzungen)",
+    "aiTradingEightSessions": "KI-Trading (8 vollständige Sitzungen)",
+    "aiTradingUnlimited": "KI-Trading (unbegrenzte vollständige Sitzungen)",
+    "tradingSignal": "Handelssignal",
+    "portfolioAnalysis": "Portfolio-Analyse",
+    "insuredPositions": "Versicherte Positionen",
+    "fastTradeExecution": "Schnelle Handelsausführung",
+    "basicCustomerSupport": "Grundlegender Kundensupport",
+    "educationalResources": "Bildungsressourcen",
+    "spreadAndSwaps": "Spreads und Swaps",
+    "riskManagement": "Risikomanagement",
+    "creditAllocation": "Kreditallokation",
+    "directAccessHigherManagement": "Direkter Zugang zum höheren Management",
+    "accessTradeExclusiveEvents": "Zugang zu exklusiven Handelsveranstaltungen",
+    "limitedAccessFinancialExpert": "Begrenzter Zugang zu Finanzexperten",
+    "leverage1to10": "Hebel 1:10",
+    "leverage1to5": "Hebel 1:5",
+    "leverage1to20": "Hebel 1:20",
+    "leverage1to50": "Hebel 1:50",
+    "leverage1to300": "Hebel 1:300",
+    "projectManagement": "Projektmanagement",
+    "fullAccessFinancialExpert": "Vollzugang zu Finanzexperten",
+    "multipleTradingSignalsDaily": "Mehrere tägliche Handelssignale",
+    "freeFundamentalTechnicalAnalysis": "Kostenlose fundamentale & technische Aktienportfolio-Analyse",
+    "noCustodyFees": "Keine Verwahrungsgebühren",
+    "experiencedSeniorAnalyst": "Erfahrener Senior-Analyst",
+    "leverage1to500": "Hebel 1:500",
+    "updatesInvestmentOpportunities": "Updates zu Investitionsmöglichkeiten",
+    "securedTradingSignals": "Gesicherte Handelssignale",
+    "allocationDividendDistribution": "Allokation mit Dividendenausschüttung",
+    "freeFundamentalTechnicalStock": "Kostenlose fundamentale & technische Aktien",
+    "insuredProfits": "Versicherte Gewinne",
+    "directAccessHigherLevel": "Direkter Zugang zur höheren Ebene",
+    "estimatedRewards4to8": "Geschätzte Belohnungen 4%-8%",
+    "monthlyRewards": "Monatliche Belohnungen",
+    "noDirectAccessHigherLevel": "Kein direkter Zugang zur höheren Ebene",
+    "estimatedRewards10to14": "Geschätzte Belohnungen 10%-14%",
+    "weeklyRewards": "Wöchentliche Belohnungen",
+    "coinsTokensRewards": "28 Münzen & Token generieren Belohnungen",
+    "vipTradingSignals": "VIP-Handelssignale",
+    "tradingSessions": "Handelssitzungen",
+    "dividendAllocation": "Dividendenallokation",
+    "autoStaking": "Auto-Staking"
+  }
+}

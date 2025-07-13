@@ -1,0 +1,22 @@
+{
+  "pageHeader": {
+    "title": "{highlight} CFD-Trading-Lösungen von Woodmont",
+    "titleHighlight": "KI-gestützte",
+    "description": "Woodmont nutzt fortschrittliche KI, um das CFD-Trading zu revolutionieren. Unsere Algorithmen analysieren Märkte in Echtzeit und bieten intelligente Einblicke für Forex-, Rohstoff-, Index- und Krypto-CFDs. Erleben Sie präzises Trading mit unserer KI-gestützten Plattform."
+  },
+  "quickActions": {
+    "aiTechnology": "Unsere KI-Technologie",
+    "companyStory": "Unternehmensgeschichte",
+    "startTrading": "Trading starten"
+  },
+  "aboutTextSection": {
+    "aiPoweredTitle": "KI-gestütztes CFD-Trading",
+    "missionSubtitle": "Wir revolutionieren das CFD-Trading durch fortschrittliche KI-Algorithmen und Echtzeit-Marktintelligenz. Unsere Plattform liefert präzise Trading-Signale, Risikomanagement und automatisierte Ausführung—und transformiert damit, wie Sie an globalen Märkten handeln.",
+    "missionDescription": "Unsere Mission ist es, anspruchsvolles CFD-Trading zu demokratisieren, indem wir Tradern institutionelle KI-Technologie und -Analytik zur Verfügung stellen. Wir glauben daran, sowohl Retail- als auch professionelle Trader mit intelligenter Automatisierung, prädiktiven Markteinblicken und umfassenden Risikomanagement-Tools zu stärken. Durch die Nutzung von maschinellem Lernen und algorithmischen Trading-Strategien liefern wir einen Wettbewerbsvorteil, der sich an Marktvolatilität anpasst und dabei Transparenz und Sicherheit bei jedem Trade gewährleistet.",
+    "founder": {
+      "name": "Alexandra Rodriguez",
+      "title": "Gründerin & CEO",
+      "quote": "Wir transformieren das CFD-Trading durch KI-Innovation—wir liefern intelligente Automatisierung und prädiktive Analytik, die Marktkomplexität in profitable Gelegenheiten für jeden Trader verwandeln."
+    }
+  }
+}

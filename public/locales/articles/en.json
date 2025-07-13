@@ -1,0 +1,50 @@
+{
+  "pageHeader": {
+    "title": "Learning Trading: A Beginner's guide to trading",
+    "description": "Learning trading doesn't happen overnight. If you don't have the time or motivation to train yourself well in trading, then it's better not to trade at all. There is no miracle recipe, to achieve a winning trading system in the long term requires a lot of work and effort. This guide to learning trading is an accelerator for your training and gives you all the essential elements to make you a good trader."
+  },
+  "articleCard": {
+    "readArticle": "Read Article"
+  },
+  "articlePage": {
+    "notFound": {
+      "title": "404 - Article Not Found",
+      "description": "The article you are looking for does not exist or has been moved.",
+      "message": "Please check the URL or go back to our",
+      "linkText": "list of articles"
+    },
+    "navigation": {
+      "previous": "Previous",
+      "next": "Next",
+      "firstArticle": "This is the first article.",
+      "lastArticle": "You've reached the end."
+    }
+  },
+  "articlesData": [
+    {
+      "title": "Trading for Dummies - Learn the basics",
+      "description": "The first step to learning trading is understanding the basics. This guide lays the foundations for a structured approach with realistic goals.",
+      "slug": "trading-for-dummies"
+    },
+    {
+      "title": "Tips for becoming a good trader",
+      "description": "Unsuccessful with trading? Take advantage of advice from more experienced traders. Experience is often what makes the difference.",
+      "slug": "tips-for-becoming-a-good-trader"
+    },
+    {
+      "title": "Find your own trading strategy",
+      "description": "Without a trading strategy, it is impossible to win. This section introduces several strategies and helps you build your own.",
+      "slug": "find-your-own-trading-strategy"
+    },
+    {
+      "title": "Money management in trading",
+      "description": "Money management is as important as your strategy. If you can't manage your risk, you can't be a winner in your trading.",
+      "slug": "money-management-in-trading"
+    },
+    {
+      "title": "Psychology in Trading",
+      "description": "Learning to trade is learning to manage your emotions. From the moment money is at stake, your emotions are multiplied.",
+      "slug": "psychology-in-trading"
+    }
+  ]
+}

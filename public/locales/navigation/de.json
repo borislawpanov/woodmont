@@ -1,0 +1,41 @@
+{
+  "menu": {
+    "aboutUs": "Über uns",
+    "marketOverview": "Marktübersicht",
+    "learningMaterial": "Lernmaterial",
+    "contact": "Kontakt",
+    "contactUs": "Kontakt",
+    "plans": "Pläne",
+    "ourTeam": "Unser Team",
+    "signup": "Registrierung",
+    "login": "Anmelden"
+  },
+  "marketOverview": {
+    "stocks": {
+      "title": "Aktien",
+      "description": "Neueste Börsentrends und Analysen."
+    },
+    "crypto": {
+      "title": "Krypto",
+      "description": "Kryptowährungspreise und Einblicke."
+    },
+    "forex": {
+      "title": "Forex",
+      "description": "Devisenmarkt-Updates."
+    },
+    "commodities": {
+      "title": "Rohstoffe",
+      "description": "Rohstoffpreise und Prognosen."
+    }
+  },
+  "learningMaterial": {
+    "articles": {
+      "title": "Artikel",
+      "description": "Bildungsinhalte und Einblicke."
+    },
+    "faq": {
+      "title": "FAQ",
+      "description": "Häufig gestellte Fragen beantwortet."
+    }
+  }
+}

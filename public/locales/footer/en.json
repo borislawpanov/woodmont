@@ -1,0 +1,23 @@
+{
+  "brand": {
+    "description": "Trade smarter with Woodmont's {aiPlatform}. Real-time signals, secure transactions, and high-confidence strategies for your financial success.",
+    "aiPlatform": "AI-powered platform"
+  },
+  "navigation": {
+    "home": "Home",
+    "faq": "FAQ", 
+    "plans": "Plans",
+    "about": "About",
+    "imprint": "Imprint",
+    "contact": "Contact"
+  },
+  "sections": {
+    "navigationTitle": "Pages",
+    "contactTitle": "Contact Info"
+  },
+  "copyright": {
+    "text": "Copyright © 2025",
+    "allRightsReserved": ". All rights reserved."
+  },
+  "companyName": "Woodmont"
+}

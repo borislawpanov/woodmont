@@ -1,0 +1,37 @@
+{
+  "sectionTitle": "Meet Our Amazing Team",
+  "pageHeader": {
+    "title": "Meet the {highlight} Powering Your AI Solutions",
+    "titleHighlight": "Experts",
+    "description": "Our team combines cutting-edge AI expertise with innovative technology to deliver intelligent solutions. United by a passion for artificial intelligence, we work relentlessly to empower your business success through precision, innovation, and advanced machine learning insights."
+  },
+  "quickActions": {
+    "meetExperts": "Meet Our Experts",
+    "ourExperience": "Our Experience",
+    "startTrading": "Start Trading"
+  },
+  "members": {
+    "alexandraRodriguez": {
+      "name": "Alexandra Rodriguez",
+      "title": "Chief Executive Officer"
+    },
+    "marcusThompson": {
+      "name": "Marcus Thompson",
+      "title": "Chief Technology Officer"
+    },
+    "isabellaChen": {
+      "name": "Isabella Chen",
+      "title": "Chief Financial Officer"
+    },
+    "jamesMitchell": {
+      "name": "James Mitchell",
+      "title": "Chief Operating Officer"
+    }
+  },
+  "joinUs": {
+    "title": "Join Our Team",
+    "cardTitle": "Shape the Future of Trading",
+    "description": "Join Woodmont to build cutting-edge AI trading solutions. Work with a passionate team to empower traders worldwide with real-time insights, transparency, and innovation.",
+    "buttonText": "Join Us"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "pageHeader": {
+    "title": "Lassen Sie uns ein {lineBreak}{highlight} beginnen",
+    "titleHighlight": "Gespräch",
+    "description": "Egal, ob Sie eine Frage haben, eine Projektidee oder einfach nur Hallo sagen möchten, wir sind da, um zuzuhören. Wie können wir Ihnen heute helfen?"
+  },
+  "quickActions": {
+    "askQuestion": "Frage stellen",
+    "seePlans": "Unsere Pläne ansehen",
+    "startTrading": "Trading starten"
+  },
+  "contactForm": {
+    "title": "Kontakt aufnehmen",
+    "fields": {
+      "fullName": {
+        "placeholder": "Max Mustermann"
+      },
+      "email": {
+        "placeholder": "sie@beispiel.com"
+      },
+      "subject": {
+        "placeholder": "Wie können wir helfen?"
+      },
+      "message": {
+        "placeholder": "Ihre Nachricht..."
+      }
+    },
+    "button": {
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "sent": "Nachricht gesendet!"
+    },
+    "errors": {
+      "allFieldsRequired": "Bitte füllen Sie alle erforderlichen Felder aus.",
+      "somethingWrong": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+    }
+  },
+  "contactMethods": {
+    "email": {
+      "title": "E-Mail-Adresse"
+    },
+    "phone": {
+      "title": "Telefonnummer"
+    },
+    "hours": {
+      "title": "Öffnungszeiten",
+      "value": "Mo-Fr: 9:00-18:00 Uhr (PST)"
+    },
+    "address": {
+      "title": "Unser Hauptsitz"
+    }
+  },
+  "supportSection": {
+    "title": "Support, auf den Sie zählen können",
+    "description": "Wir sind mehr als nur eine Plattform; wir sind Ihre Partner im Trading. Unser Engagement ist es, Ihnen unerschütterliche Unterstützung und vollkommene Seelenruhe zu bieten.",
+    "cards": {
+      "expertSupport": {
+        "headline": "Experten-Support",
+        "description": "Unser Team von Branchenexperten steht bereit, um Ihnen die Antworten zu geben, die Sie brauchen, wann Sie sie brauchen."
+      },
+      "privacy": {
+        "headline": "Datenschutz ist unsere Priorität",
+        "description": "Wir verpflichten uns, Ihre Daten mit erstklassiger Sicherheit zu schützen. Wir werden Ihre Informationen niemals an Dritte weitergeben."
+      },
+      "community": {
+        "headline": "Community-orientiert",
+        "description": "Wenn Sie uns kontaktieren, erhalten Sie nicht nur Support; Sie zapfen eine Gemeinschaft von Vordenkern an."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sectionTitle": "Häufig gestellte Fragen",
+  "sectionDescription": "Finden Sie Antworten auf häufige Fragen zu unserer Plattform, Technologie und Sicherheitsmaßnahmen.",
+  "questions": {
+    "aiSignals": {
+      "question": "Wie generiert die KI Handelssignale?",
+      "answer": "Unsere KI analysiert große Mengen von Marktdaten, einschließlich Preistrends, Volumen und Stimmung, mithilfe fortschrittlichen maschinellen Lernens, um hochkonfidente Handelssignale mit klaren Ein- und Ausstiegspunkten zu generieren."
+    },
+    "investmentSafety": {
+      "question": "Sind meine Investitionen auf Ihrer Plattform sicher?",
+      "answer": "Wir priorisieren Sicherheit mit Ende-zu-Ende-Verschlüsselung und robuster Risikobewertung für jeden Trade. Obwohl jeder Handel Risiken birgt, quantifiziert unsere KI Risikolevels, um Ihnen bei fundierten Entscheidungen zu helfen."
+    },
+    "automatedTrading": {
+      "question": "Kann ich Trades mit Ihrer KI automatisieren?",
+      "answer": "Ja, unsere Plattform unterstützt Ein-Klick-Handelsausführung und vollständig automatisierte Strategien. Rückgetestete KI-Modelle ermöglichen es Ihnen, Trades basierend auf hochwahrscheinlichen Signalen zu automatisieren."
+    },
+    "aiAccuracy": {
+      "question": "Wie genau sind die KI-Vorhersagen?",
+      "answer": "Unsere KI weist eine durchschnittliche Erfolgsrate von 81% basierend auf historischen Backtests auf, mit Vertrauenswerten für jedes Signal, um Ihre Handelsentscheidungen zu leiten."
+    },
+    "availableMarkets": {
+      "question": "Auf welchen Märkten kann ich handeln?",
+      "answer": "Sie können Kryptowährungen (z.B. BTC/USD, ETH/USD), Forex, Aktien und Rohstoffe handeln. Unsere KI liefert Echtzeit-Signale über mehrere Märkte für maximale Chancen."
+    }
+  }
+}

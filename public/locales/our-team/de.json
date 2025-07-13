@@ -1,0 +1,37 @@
+{
+  "sectionTitle": "Lernen Sie unser fantastisches Team kennen",
+  "pageHeader": {
+    "title": "Lernen Sie die {highlight} kennen, die Ihre KI-Lösungen antreiben",
+    "titleHighlight": "Experten",
+    "description": "Unser Team kombiniert modernste KI-Expertise mit innovativer Technologie, um intelligente Lösungen zu liefern. Vereint durch eine Leidenschaft für künstliche Intelligenz arbeiten wir unermüdlich daran, Ihren Geschäftserfolg durch Präzision, Innovation und fortschrittliche maschinelle Lerneinblicke zu stärken."
+  },
+  "quickActions": {
+    "meetExperts": "Lernen Sie unsere Experten kennen",
+    "ourExperience": "Unsere Erfahrung",
+    "startTrading": "Trading starten"
+  },
+  "members": {
+    "alexandraRodriguez": {
+      "name": "Alexandra Rodriguez",
+      "title": "Geschäftsführerin"
+    },
+    "marcusThompson": {
+      "name": "Marcus Thompson",
+      "title": "Technischer Direktor"
+    },
+    "isabellaChen": {
+      "name": "Isabella Chen",
+      "title": "Finanzleiterin"
+    },
+    "jamesMitchell": {
+      "name": "James Mitchell",
+      "title": "Betriebsleiter"
+    }
+  },
+  "joinUs": {
+    "title": "Werden Sie Teil unseres Teams",
+    "cardTitle": "Gestalten Sie die Zukunft des Handels",
+    "description": "Schließen Sie sich Woodmont an, um modernste KI-Handelslösungen zu entwickeln. Arbeiten Sie mit einem leidenschaftlichen Team zusammen, um Händler weltweit mit Echtzeit-Einblicken, Transparenz und Innovation zu stärken.",
+    "buttonText": "Mitmachen"
+  }
+}

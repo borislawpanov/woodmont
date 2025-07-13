@@ -1,0 +1,100 @@
+{
+  "sectionTitle": "Choose Your Plan",
+  "sectionDescription": "We offer a variety of plans to suit your trading style and financial goals. Get started with the one that's right for you.",
+  "categories": {
+    "standard": "Standard",
+    "advanced": "Advanced", 
+    "savings": "Savings"
+  },
+  "common": {
+    "mostPopular": "Most Popular",
+    "minimumDeposit": "Minimum Deposit",
+    "getStarted": "Get Started"
+  },
+  "plans": {
+    "membershipFee": {
+      "header": "Membership Fee",
+      "description": "Entry-level plan for new traders."
+    },
+    "bronze": {
+      "header": "Bronze",
+      "description": "Basic trading with essential tools."
+    },
+    "silver": {
+      "header": "Silver", 
+      "description": "Enhanced trading with higher leverage."
+    },
+    "gold": {
+      "header": "Gold",
+      "description": "Advanced tools for serious traders."
+    },
+    "platinum": {
+      "header": "Platinum",
+      "description": "Premium features with high leverage."
+    },
+    "diamond": {
+      "header": "Diamond",
+      "description": "Elite trading with full expert access."
+    },
+    "premiumSavings": {
+      "header": "Premium Savings",
+      "description": "Ultimate savings plan with maximum benefits."
+    },
+    "ethereumSavings": {
+      "header": "Ethereum Savings",
+      "description": "Secure savings with monthly rewards."
+    },
+    "btcSavings": {
+      "header": "BTC Savings",
+      "description": "High-yield savings with weekly rewards."
+    }
+  },
+  "features": {
+    "marketReport": "Market Report",
+    "aiTradingTestSession": "AI Trading (1 test session)",
+    "aiTradingTwoSessions": "AI Trading (2 full sessions)",
+    "aiTradingFiveSessions": "AI Trading (5 full sessions)",
+    "aiTradingEightSessions": "AI Trading (8 full sessions)",
+    "aiTradingUnlimited": "AI Trading (unlimited full sessions)",
+    "tradingSignal": "Trading Signal",
+    "portfolioAnalysis": "Portfolio Analysis",
+    "insuredPositions": "Insured Positions",
+    "fastTradeExecution": "Fast Trade Execution",
+    "basicCustomerSupport": "Basic Customer Support",
+    "educationalResources": "Educational Resources",
+    "spreadAndSwaps": "Spread and Swaps",
+    "riskManagement": "Risk Management",
+    "creditAllocation": "Credit Allocation",
+    "directAccessHigherManagement": "Direct Access to Higher Level Management",
+    "accessTradeExclusiveEvents": "Access to Trade Exclusive Events",
+    "limitedAccessFinancialExpert": "Limited Access to Financial Expert",
+    "leverage1to10": "Leverage 1:10",
+    "leverage1to5": "Leverage 1:5",
+    "leverage1to20": "Leverage 1:20",
+    "leverage1to50": "Leverage 1:50",
+    "leverage1to300": "Leverage 1:300",
+    "projectManagement": "Project Management",
+    "fullAccessFinancialExpert": "Full access to Financial Expert",
+    "multipleTradingSignalsDaily": "Multiple Trading Signals Daily",
+    "freeFundamentalTechnicalAnalysis": "Free Fundamental & Technical Stock Portfolio Analysis",
+    "noCustodyFees": "No Custody Fees",
+    "experiencedSeniorAnalyst": "Experienced Senior Analyst",
+    "leverage1to500": "Leverage 1:500",
+    "updatesInvestmentOpportunities": "Updates on Investment Opportunities",
+    "securedTradingSignals": "Secured Trading Signals",
+    "allocationDividendDistribution": "Allocation with Dividend Distribution",
+    "freeFundamentalTechnicalStock": "Free Fundamental & Technical Stock",
+    "insuredProfits": "Insured profits",
+    "directAccessHigherLevel": "Direct access to higher level",
+    "estimatedRewards4to8": "Estimated Rewards 4%-8%",
+    "monthlyRewards": "Monthly Rewards",
+    "noDirectAccessHigherLevel": "No direct access to higher level",
+    "estimatedRewards10to14": "Estimated Rewards 10%-14%",
+    "weeklyRewards": "Weekly Rewards",
+    "coinsTokensRewards": "28 Coins & Tokens Generating Rewards",
+    "vipTradingSignals": "VIP Trading Signals",
+    "tradingSessions": "Trading Sessions",
+    "dividendAllocation": "Dividend Allocation",
+    "autoStaking": "Auto-Staking"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "stocks": {
+    "pageHeader": {
+      "title": "Neueste Aktienmarkt-Trends & Analysen",
+      "description": "Bleiben Sie mit Echtzeit-Einblicken in Aktienmarkt-Trends und tiefgreifenden Analysen voraus. Unsere Plattform liefert umsetzbare Daten und Expertenberatung, um Ihre Investitionsentscheidungen zu stärken."
+    }
+  },
+  "crypto": {
+    "pageHeader": {
+      "title": "Neueste Krypto-Markt-Trends & Analysen",
+      "description": "Bleiben Sie mit Echtzeit-Einblicken in Kryptowährungs-Markt-Trends und tiefgreifenden Analysen voraus. Unsere Plattform liefert umsetzbare Daten, um Ihre Investitionsentscheidungen zu stärken."
+    }
+  },
+  "commodities": {
+    "pageHeader": {
+      "title": "Neueste Rohstoffmarkt-Trends & Analysen",
+      "description": "Bleiben Sie mit Echtzeit-Einblicken in Rohstoffmarkt-Trends und tiefgreifenden Analysen auf dem Laufenden. Unsere Plattform bietet umsetzbare Daten und Expertenberatung zur Verbesserung Ihrer Investitionsentscheidungen."
+    }
+  },
+  "forex": {
+    "pageHeader": {
+      "title": "Neueste Forex-Markt-Trends & Analysen",
+      "description": "Bleiben Sie mit Echtzeit-Einblicken in Forex-Markt-Trends und tiefgreifenden Analysen informiert. Unsere Plattform bietet umsetzbare Daten und Expertenberatung zur Optimierung Ihrer Trading-Entscheidungen."
+    }
+  }
+}

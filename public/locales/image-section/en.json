@@ -1,0 +1,30 @@
+{
+  "aiTradeSignalAnalysis": "AI Trade Signal Analysis",
+  "potentialProfit": "Potential Profit",
+  "mainTitle": "Turn Market Noise into",
+  "mainTitleHighlight": "Actionable Signals",
+  "description": "Our AI doesn't just predict trends—it delivers clear, data-driven trade signals, allowing you to act with confidence and precision.",
+  "features": {
+    "highPotentialTrades": {
+      "title": "Identify High-Potential Trades:",
+      "description": "Pinpoint opportunities with the highest probability of success."
+    },
+    "quantifyRisk": {
+      "title": "Quantify Risk:",
+      "description": "Instantly see the AI-assessed risk level for every potential trade."
+    },
+    "actOnConfidence": {
+      "title": "Act on Confidence:",
+      "description": "Every signal includes a confidence score, so you know the conviction behind each move."
+    }
+  },
+  "metrics": {
+    "aiConfidence": "AI Confidence",
+    "riskLevel": "Risk Level"
+  },
+  "riskLevels": {
+    "Low": "Low",
+    "Medium": "Medium", 
+    "High": "High"
+  }
+}

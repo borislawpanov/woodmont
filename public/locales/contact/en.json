@@ -1,0 +1,71 @@
+{
+  "pageHeader": {
+    "title": "Let's Start a {lineBreak}{highlight}",
+    "titleHighlight": "Conversation",
+    "description": "Whether you have a question, a project idea, or just want to say hello, we're here to listen. How can we help you today?"
+  },
+  "quickActions": {
+    "askQuestion": "Ask a Question",
+    "seePlans": "See Our Plans", 
+    "startTrading": "Start Trading"
+  },
+  "contactForm": {
+    "title": "Get in Touch",
+    "fields": {
+      "fullName": {
+        "placeholder": "John Doe"
+      },
+      "email": {
+        "placeholder": "you@example.com"
+      },
+      "subject": {
+        "placeholder": "How can we help?"
+      },
+      "message": {
+        "placeholder": "Your message..."
+      }
+    },
+    "button": {
+      "send": "Send Message",
+      "sending": "Sending...",
+      "sent": "Message Sent!"
+    },
+    "errors": {
+      "allFieldsRequired": "Please fill out all required fields.",
+      "somethingWrong": "Something went wrong. Please try again."
+    }
+  },
+  "contactMethods": {
+    "email": {
+      "title": "Email Address"
+    },
+    "phone": {
+      "title": "Phone Number"
+    },
+    "hours": {
+      "title": "Working Hours",
+      "value": "Mon-Fri: 9:00AM - 6:00PM (PST)"
+    },
+    "address": {
+      "title": "Our Headquarters"
+    }
+  },
+  "supportSection": {
+    "title": "Support You Can Count On",
+    "description": "We are more than just a platform; we are your partners in trading. Our commitment is to provide you with unwavering support and complete peace of mind.",
+    "cards": {
+      "expertSupport": {
+        "headline": "Expert Support",
+        "description": "Our team of industry experts is on standby to provide you with the answers you need, when you need them."
+      },
+      "privacy": {
+        "headline": "Privacy is Our Priority",
+        "description": "We are committed to protecting your data with top-tier security. We will never share your information with third parties."
+      },
+      "community": {
+        "headline": "Community Driven",
+        "description": "When you contact us, you're not just getting support; you're tapping into a community of forward-thinkers."
+      }
+    }
+  }
+}

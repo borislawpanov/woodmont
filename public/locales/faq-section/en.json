@@ -1,0 +1,26 @@
+{
+  "sectionTitle": "Frequently Asked Questions",
+  "sectionDescription": "Find answers to common inquiries about our platform, technology, and security measures.",
+  "questions": {
+    "aiSignals": {
+      "question": "How does the AI generate trading signals?",
+      "answer": "Our AI analyzes vast amounts of market data, including price trends, volume, and sentiment, using advanced machine learning to generate high-confidence trading signals with clear entry and exit points."
+    },
+    "investmentSafety": {
+      "question": "Is my investment safe with your platform?",
+      "answer": "We prioritize security with end-to-end encryption and robust risk assessment for every trade. While all trading carries risk, our AI quantifies risk levels to help you make informed decisions."
+    },
+    "automatedTrading": {
+      "question": "Can I automate trades with your AI?",
+      "answer": "Yes, our platform supports one-click trade execution and fully automated strategies. Backtested AI models allow you to automate trades based on high-probability signals."
+    },
+    "aiAccuracy": {
+      "question": "How accurate are the AI predictions?",
+      "answer": "Our AI boasts an average success rate of 81% based on historical backtesting, with confidence scores provided for each signal to guide your trading decisions."
+    },
+    "availableMarkets": {
+      "question": "What markets can I trade on?",
+      "answer": "You can trade cryptocurrencies (e.g., BTC/USD, ETH/USD), forex, stocks, and commodities. Our AI delivers real-time signals across multiple markets for maximum opportunity."
+    }
+  }
+}

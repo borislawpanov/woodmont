@@ -1,0 +1,54 @@
+
+.hero-section {
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  align-items: flex-end;
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    margin-top: 5vh;
+  }
+}
+
+.hero-image-row {
+  min-height: 500px;
+}
+
+.hero-card {
+  position: absolute;
+  border: 1.5px solid rgba(255, 255, 255, 0.164);
+  border-radius: 10px;
+  display: flex;
+  gap: 1rem;
+  padding: 0.3rem 0.6rem;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(var(--background));
+}
+
+.hero-card.top-left {
+  bottom: 10%;
+  left: 10%;
+  padding-right: 2.5rem;
+}
+
+.hero-card.top-right {
+  bottom: 10%;
+  right: -10%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 576px) {
+  .hero-card.top-right {
+    transform: translateX(-25%);
+  }
+}
+
+.flex-5 {
+  flex: 5;
+}
+
+.flex-7 {
+  flex: 7;
+}
