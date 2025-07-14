@@ -2,11 +2,43 @@ import React, { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
+import { siteName } from "../constants";
 const Imprint = () => {
-  const { t } = useTranslation("imprint");
+  const { t } = useTranslation('imprint');
   const [activeId, setActiveId] = React.useState(null);
-  const imprintData = t("sections", { returnObjects: true });
+
+  // Define sections based on translation keys
+  const imprintData = [
+    {
+      title: t("sections.generalTerms.title"),
+      content: t("sections.generalTerms.content", { siteName }),
+    },
+    {
+      title: t("sections.suspiciousOperations.title"),
+      content: t("sections.suspiciousOperations.content"),
+    },
+    {
+      title: t("sections.communications.title"),
+      content: t("sections.communications.content"),
+    },
+    {
+      title: t("sections.paymentsPolicy.title"),
+      content: t("sections.paymentsPolicy.content"),
+    },
+    {
+      title: t("sections.fundsTransferOptions.title"),
+      content: t("sections.fundsTransferOptions.content"),
+    },
+    {
+      title: t("sections.clientPortal.title"),
+      content: t("sections.clientPortal.content"),
+    },
+    {
+      title: t("sections.inquiriesAndDisputes.title"),
+      content: t("sections.inquiriesAndDisputes.content"),
+    },
+  ];
+
   const imprintRefs = useRef(imprintData.map(() => React.createRef()));
 
   useEffect(() => {
@@ -44,7 +76,7 @@ const Imprint = () => {
         <Card className="shadow-lg">
           <CardHeader>
             <CardTitle className="text-lg font-semibold">
-              {t("tableOfContents.title")}
+              {t("tableOfContents")}
             </CardTitle>
           </CardHeader>
           <CardContent>
@@ -80,7 +112,7 @@ const Imprint = () => {
               className="scroll-mt-20"
             >
               <h2 className="text-2xl font-semibold mb-4">{section.title}</h2>
-              <p className="text-lg text-muted-foreground leading-relaxed max-w-prose">
+              <p className="text-lg text-muted-foreground leading-relaxed max-w-prose whitespace-pre-line">
                 {section.content}
               </p>
             </div>
@@ -89,15 +121,15 @@ const Imprint = () => {
 
         <footer className="mt-12 pt-8 border-t border-border">
           <h3 className="text-xl font-semibold mb-4">
-            {t("footer.title")}
+            {t("footer.aboutTitle", { siteName })}
           </h3>
           <p className="text-lg text-muted-foreground max-w-prose">
-            {t("footer.content")}
+            {t("footer.aboutDescription", { siteName })}
           </p>
         </footer>
-      </article>
-    </div>
-  );
-};
+        </article>
+      </div>
+    );
+  };
 
 export default Imprint;
