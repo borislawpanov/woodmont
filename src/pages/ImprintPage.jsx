@@ -9,12 +9,8 @@ export const ImprintPage = () => {
 
   return (
     <DefaultLayout>
-      <PageHeader
-        title={t("pageHeader.title")}
-        align="center"
-        description={t("pageHeader.description")}
-      />
-      <div className="container mx-auto px-4 py-12 max-w-4xl">
+
+      <div className="container mx-auto px-4 py-16 max-w-4xl">
         <div className="prose prose-lg mx-auto text-foreground">
           
           <div className="mb-12 pb-8 border-b border-border">
