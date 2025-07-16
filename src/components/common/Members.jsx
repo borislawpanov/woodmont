@@ -8,22 +8,23 @@ import alexandraRodriguez from "../../assets/images/alexandra-rodriguez.png";
 import marcusThompson from "../../assets/images/marcus-thompson.png";
 import isabellaChen from "../../assets/images/isabella-chen.png";
 import jamesMitchell from "../../assets/images/james-mitchell.png";
+import marekNowak from "../../assets/images/marek-nowak.png";
 
 const memberData = [
   {
-    photo: alexandraRodriguez,
+    photo: jamesMitchell,            // Male photo for Niklas Krieger (CEO, male)
     key: "alexandraRodriguez"
   },
   {
-    photo: marcusThompson,
+    photo: marcusThompson,           // Keep Marcus Thompson with his own photo
     key: "marcusThompson"
   },
   {
-    photo: isabellaChen,
+    photo: alexandraRodriguez,       // Female photo for Clara Weissmann (CFO, female)
     key: "isabellaChen"
   },
   {
-    photo: jamesMitchell,
+    photo: marekNowak,              // Marek Nowak's own photo for Marek Nowak (CTO, male)
     key: "jamesMitchell"
   },
 ];

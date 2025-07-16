@@ -9,7 +9,8 @@ import Crypto from "./pages/Crypto";
 import Forex from "./pages/Forex";
 import Commodities from "./pages/Commodities";
 import FAQPage from "./pages/FAQ";
-import ImprintPage from "./pages/Imprint";
+import {ImprintPage} from "./pages/ImprintPage";
+import LegalInfoPage from "./pages/LegalInfo";
 import NotFound from "./pages/NotFound"; // Import the 404 component
 import Articles from "./pages/Articles";
 import ArticlePage from "./pages/ArticlePage";
@@ -28,6 +29,7 @@ function App() {
         <Route path="/market/commodities" element={<Commodities />} />
         <Route path="/market/forex" element={<Forex />} />
         <Route path="/imprint" element={<ImprintPage />} />
+        <Route path="/legal-info" element={<LegalInfoPage />} />
         <Route path="/learning/faq" element={<FAQPage />} />
         <Route path="/learning/articles" element={<Articles />} />
         <Route path="/learning/articles/:slug" element={<ArticlePage />} />

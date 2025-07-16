@@ -1,0 +1,101 @@
+{
+  "pageHeader": {
+    "title": "Impressum",
+    "description": "Firmeninformationen und regulatorische Angaben."
+  },
+  "mainTitle": "Woodmont Ventures – Exzellenz in Finanzdienstleistungen",
+  "sections": {
+    "companyInfo": {
+      "title": "Unternehmensinformationen",
+      "companyName": "Firmenname:",
+      "companyNameValue": "Woodmont Ventures",
+      "legalForm": "Rechtsform:",
+      "legalFormValue": "Limited Liability Company (LLC)",
+      "crdNumber": "CRD-Nummer:",
+      "crdNumberValue": "183506"
+    },
+    "headOffice": {
+      "title": "Hauptsitz",
+      "companyName": "Woodmont Ventures"
+    },
+    "contactInfo": {
+      "title": "Kontaktinformationen",
+      "phone": "Telefon:",
+      "email": "E-Mail:",
+      "website": "Website:"
+    },
+    "executiveTeam": {
+      "title": "Geschäftsführung",
+      "ceo": "Chief Executive Officer (CEO):",
+      "ceoName": "Niklas Krieger",
+      "ceoCrd": "CRD#: 729406183",
+      "cfo": "Chief Financial Officer (CFO):",
+      "cfoName": "Clara Weissmann",
+      "cfoCrd": "CRD#: 836194750",
+      "cto": "Chief Technology Officer (CTO):",
+      "ctoName": "Marek Nowak",
+      "ctoCrd": "CRD#: 3058274"
+    },
+    "taxId": {
+      "title": "Steuerliche Identifikation",
+      "vatNumber": "Umsatzsteuer-Identifikationsnummer:",
+      "vatNumberValue": "827-34916",
+      "exciseNumber": "Verbrauchsteuer-Identifikationsnummer:",
+      "exciseNumberValue": "FFHY4NXLQPP02",
+      "incomeNumber": "Einkommensteuer-Nummer:",
+      "incomeNumberValue": "5062-381-794"
+    },
+    "regulatedActivities": {
+      "title": "Regulierte Tätigkeiten",
+      "intro": "Woodmont Ventures ist stolz darauf, nach den höchsten Standards der US-amerikanischen Finanzregulierung zu arbeiten und bietet eine Vielzahl spezialisierter Dienstleistungen an:",
+      "insuranceBroker": "Lizenzierter Versicherungsmakler:",
+      "insuranceBrokerDesc": "Zugelassen unter US-Bundesversicherungsvorschriften, Lizenznummer US-INS-74029, für umfassenden Schutz und Beratung zu Versicherungsprodukten.",
+      "investmentBroker": "Lizenzierter Finanzanlage-Makler:",
+      "investmentBrokerDesc": "Registriert bei der U.S. Securities and Exchange Commission (SEC), Lizenznummer US-FIN-51937, für professionelle Anlage- und Finanzplanungsverwaltung.",
+      "wealthAdvisor": "Zertifizierter Vermögensverwaltungsberater:",
+      "wealthAdvisorDesc": "Akkreditiert von der Financial Industry Regulatory Authority (FINRA), Zertifikatsnummer US-WMC-68294, spezialisiert auf maßgeschneiderte Vermögensstrategien."
+    },
+    "professionalRegulations": {
+      "title": "Berufsrechtliche Vorschriften",
+      "intro": "Unsere Aktivitäten entsprechen einem umfassenden Rahmen von US-Finanzvorschriften, einschließlich:",
+      "regulations": [
+        "US-Bundesversicherungsvorschriften",
+        "US Securities Exchange Act von 1934",
+        "Regeln der Financial Industry Regulatory Authority (FINRA)",
+        "Richtlinien der National Association of Insurance Commissioners (NAIC)"
+      ],
+      "outro": "Diese Vorschriften finden Sie unter SEC.gov und NAIC.org und spiegeln unser Engagement für Transparenz und regulatorische Exzellenz wider."
+    },
+    "sustainability": {
+      "title": "Nachhaltigkeit und ethische Verpflichtung",
+      "content": "Bei Woodmont Ventures ist Nachhaltigkeit ein Kernwert. Bei der Auswahl von Versicherungs- und Anlageprodukten berücksichtigen wir derzeit nur von Kunden bereitgestellte Daten. Wir verfolgen aktiv globale Nachhaltigkeitstrends und planen, bald einen breiteren Ansatz zu integrieren, einschließlich Umwelt-, Sozial- und Governance-Faktoren (ESG) als Standardpraxis. Unser Engagement für ethisches Verhalten unserer Mitarbeiter und Untermakler bleibt unerschütterlich und wird nicht von Nachhaltigkeitsrisiken beeinflusst."
+    },
+    "ownershipStructure": {
+      "title": "Eigentumsstruktur und Zugehörigkeiten",
+      "content": "Woodmont Ventures wahrt völlige Unabhängigkeit in seinen Geschäftstätigkeiten. Es gibt kein direktes oder indirektes Eigentum von mehr als 10% an den Stimmrechten oder dem Kapital einer Anlage- oder Versicherungsgesellschaft. Ebenso hält keine Anlage- oder Versicherungsgesellschaft einen direkten oder indirekten Anteil von mehr als 10% an unserem Unternehmen, was einen unparteiischen und kundenorientierten Service gewährleistet."
+    },
+    "liabilityInsurance": {
+      "title": "Berufshaftpflichtversicherung",
+      "content": "Woodmont Ventures verfügt über eine umfassende Finanzhaftpflichtversicherung, die vollständig den US-Bundesfinanzvorschriften entspricht. Diese Police, gezeichnet von einem führenden US-Versicherer, bietet bis zu 8 Millionen Deckung und schafft eine zusätzliche Sicherheitsebene für unsere Kunden und Partner."
+    },
+    "disputeResolution": {
+      "title": "Streitbeilegung",
+      "intro": "Woodmont Ventures verpflichtet sich, Streitigkeiten effizient und fair zu lösen. Wir sind verpflichtet, an einem außergerichtlichen Streitbeilegungsverfahren durch eine ernannte Verbraucherschiedsstelle teilzunehmen.",
+      "outro": "Verbraucher mit Streitigkeiten bezüglich Online-Käufen oder Serviceverträgen sollten die EU Online-Streitbeilegungsplattform nutzen: Online Dispute Resolution | European Commission. Für direkte Unterstützung kontaktieren Sie uns bitte unter support@woodmont.vip. Diese Plattform wird unabhängig betrieben, um eine neutrale Lösung zu gewährleisten."
+    },
+    "legalNotice": {
+      "title": "Rechtlicher Hinweis",
+      "content": "Informationen zur Online-Streitbeilegung für Verbraucherangelegenheiten sind verfügbar. Die Europäische Kommission startete am 15. Februar 2018 die Online-Streitbeilegungsplattform (ODR), zugänglich unter: Your Europe Portal. Woodmont Ventures nimmt derzeit nicht an diesem ODR-Plattform-Streitbeilegungsverfahren teil, bleibt aber offen für alternative Lösungskanäle, falls erforderlich."
+    },
+    "disclaimer": {
+      "title": "Haftungsausschluss",
+      "accuracy": "Woodmont Ventures bemüht sich, die Genauigkeit und Aktualität der Inhalte auf unserer Website sicherzustellen. Wir aktualisieren und verfeinern regelmäßig die bereitgestellten Informationen, um den Bedürfnissen unserer Kunden gerecht zu werden.",
+      "liability": "Wir können jedoch keine Gewähr oder Haftung für die Genauigkeit, Vollständigkeit oder Aktualität der dargestellten Daten übernehmen. Links zu externen Websites liegen außerhalb unserer Kontrolle, und wir lehnen ausdrücklich die Verantwortung für deren Inhalte oder jegliche daraus entstehende Haftung ab.",
+      "copyright": "Wir übernehmen die volle Verantwortung für den Inhalt und das Design unserer Website. Jede Nutzung von Inhalten, Bildern, Grafiken, Audio-, Video- oder Animationsdaten von der Woodmont Ventures-Website, einschließlich Informationen und Bildern, erfordert eine vorherige schriftliche Genehmigung unseres Unternehmens. Unbefugte Nutzung ist strengstens untersagt und kann rechtliche Schritte zur Folge haben."
+    },
+    "commitment": {
+      "title": "Verpflichtung zur Exzellenz",
+      "content": "Gegründet mit der Vision, unübertroffene Finanzdienstleistungen zu bieten, kombiniert Woodmont Ventures innovative Technologie mit Expertenberatung, um unsere Kunden zu stärken. Unser Hauptsitz in Atlanta dient als Zentrum für strategisches Wachstum, unterstützt von einem Team erfahrener Fachkräfte, die sich der Exzellenz verschrieben haben. Wir laden Sie ein, unsere Dienstleistungen zu erkunden und sich uns bei der Gestaltung einer sicheren finanziellen Zukunft anzuschließen."
+    }
+  }
+}

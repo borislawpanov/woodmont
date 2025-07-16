@@ -4,7 +4,7 @@ import DefaultLayout from "../layouts/DefaultLayout";
 import PageHeader from "../sections/common/PageHeader";
 import ImprintSection from "../sections/ImprintSection";
 
-const ImprintPage = () => {
+const LegalInfoPage = () => {
   const { t } = useTranslation("imprint");
 
   return (
@@ -18,4 +18,4 @@ const ImprintPage = () => {
     </DefaultLayout>
   );
 };
-export default ImprintPage;
+export default LegalInfoPage;

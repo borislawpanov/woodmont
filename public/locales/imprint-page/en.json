@@ -1,0 +1,101 @@
+{
+  "pageHeader": {
+    "title": "Legal Information",
+    "description": "Company details and regulatory information."
+  },
+  "mainTitle": "Woodmont Ventures – Excellence in Financial Services",
+  "sections": {
+    "companyInfo": {
+      "title": "Company Information",
+      "companyName": "Company Name:",
+      "companyNameValue": "Woodmont Ventures",
+      "legalForm": "Legal Form:",
+      "legalFormValue": "Limited Liability Company (LLC)",
+      "crdNumber": "CRD Number:",
+      "crdNumberValue": "183506"
+    },
+    "headOffice": {
+      "title": "Head Office",
+      "companyName": "Woodmont Ventures"
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "phone": "Phone:",
+      "email": "Email:",
+      "website": "Website:"
+    },
+    "executiveTeam": {
+      "title": "Executive Team",
+      "ceo": "Chief Executive Officer (CEO):",
+      "ceoName": "Niklas Krieger",
+      "ceoCrd": "CRD#: 729406183",
+      "cfo": "Chief Financial Officer (CFO):",
+      "cfoName": "Clara Weissmann",
+      "cfoCrd": "CRD#: 836194750",
+      "cto": "Chief Technology Officer (CTO):",
+      "ctoName": "Marek Nowak",
+      "ctoCrd": "CRD#: 3058274"
+    },
+    "taxId": {
+      "title": "Tax Identification",
+      "vatNumber": "VAT Identification Number:",
+      "vatNumberValue": "827-34916",
+      "exciseNumber": "Excise Tax Identification Number:",
+      "exciseNumberValue": "FFHY4NXLQPP02",
+      "incomeNumber": "Income Tax Number:",
+      "incomeNumberValue": "5062-381-794"
+    },
+    "regulatedActivities": {
+      "title": "Regulated Activities",
+      "intro": "Woodmont Ventures is proud to operate under the highest standards of U.S. financial regulations and offers a variety of specialized services:",
+      "insuranceBroker": "Licensed Insurance Broker:",
+      "insuranceBrokerDesc": "Approved under US federal insurance regulations, license number US-INS-74029, for comprehensive protection and advice on insurance products.",
+      "investmentBroker": "Licensed Financial Investment Broker:",
+      "investmentBrokerDesc": "Registered with the U.S. Securities and Exchange Commission (SEC), license number US-FIN-51937, for professional investment and financial planning management.",
+      "wealthAdvisor": "Certified Wealth Management Advisor:",
+      "wealthAdvisorDesc": "Accredited by the Financial Industry Regulatory Authority (FINRA), certificate number US-WMC-68294, specializing in customized wealth strategies."
+    },
+    "professionalRegulations": {
+      "title": "Professional Regulations",
+      "intro": "Our activities comply with a comprehensive framework of U.S. financial regulations, including:",
+      "regulations": [
+        "U.S. Federal Insurance Regulations",
+        "U.S. Securities Exchange Act of 1934",
+        "Rules of the Financial Industry Regulatory Authority (FINRA)",
+        "Guidelines of the National Association of Insurance Commissioners (NAIC)"
+      ],
+      "outro": "These regulations can be found at SEC.gov and NAIC.org and reflect our commitment to transparency and regulatory excellence."
+    },
+    "sustainability": {
+      "title": "Sustainability and Ethical Commitment",
+      "content": "At Woodmont Ventures, sustainability is a core value. When selecting insurance and investment products, we currently consider only client-provided data. We actively follow global sustainability trends and plan to integrate a broader approach soon, including Environmental, Social, and Governance (ESG) factors as standard practice. Our commitment to ethical conduct by our employees and sub-brokers remains unwavering and is not affected by sustainability risks."
+    },
+    "ownershipStructure": {
+      "title": "Ownership Structure and Affiliations",
+      "content": "Woodmont Ventures maintains full independence in its operations. There is no direct or indirect ownership of more than 10% in the voting rights or capital of any investment or insurance company. Likewise, no investment or insurance company holds a direct or indirect stake of more than 10% in our company, ensuring impartial and client-focused service."
+    },
+    "liabilityInsurance": {
+      "title": "Professional Liability Insurance",
+      "content": "Woodmont Ventures has a comprehensive financial liability insurance policy that is fully compliant with US federal financial regulations. This policy, underwritten by a leading US insurer, provides up to 8 million in coverage and creates an additional layer of security for our clients and partners."
+    },
+    "disputeResolution": {
+      "title": "Dispute Resolution",
+      "intro": "Woodmont Ventures is committed to resolving disputes efficiently and fairly. We are obliged to participate in an out-of-court dispute resolution process through an appointed consumer arbitration body.",
+      "outro": "Consumers with disputes related to online purchases or service contracts should use the EU Online Dispute Resolution platform: Online Dispute Resolution | European Commission. For direct support, please contact us at support@woodmont.vip. This platform is operated independently to ensure a neutral resolution."
+    },
+    "legalNotice": {
+      "title": "Legal Notice",
+      "content": "Information on online dispute resolution for consumer matters is available. The European Commission launched the Online Dispute Resolution platform (ODR) on February 15, 2018, accessible at: Your Europe portal. Woodmont Ventures is currently not participating in this ODR platform dispute resolution procedure but remains open to alternative resolution channels if required."
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "accuracy": "Woodmont Ventures strives to ensure the accuracy and timeliness of the content on our website. We regularly update and refine the provided information to meet the needs of our clients.",
+      "liability": "However, we cannot guarantee or assume liability for the accuracy, completeness, or timeliness of the presented data. Links to external websites are beyond our control, and we expressly disclaim responsibility for their content or any liability arising from them.",
+      "copyright": "We assume full responsibility for the content and design of our website. Any use of content, images, graphics, audio, video, or animation data from the Woodmont Ventures website, including information and images, requires prior written permission from our company. Unauthorized use is strictly prohibited and may result in legal action."
+    },
+    "commitment": {
+      "title": "Commitment to Excellence",
+      "content": "Founded with a vision to provide unparalleled financial services, Woodmont Ventures combines innovative technology with expert advice to empower our clients. Our Atlanta headquarters serves as a center for strategic growth, supported by a team of experienced professionals dedicated to excellence. We invite you to explore our services and join us in shaping a secure financial future."
+    }
+  }
+}

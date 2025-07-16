@@ -34,7 +34,8 @@ const Footer = () => {
     { name: t('navigation.faq'), path: "/learning/faq" },
     { name: t('navigation.plans'), path: "/plans" },
     { name: t('navigation.about'), path: "/about" },
-    { name: t('navigation.imprint'), path: "/imprint" },
+    { name: "Legal Info", path: "/legal-info" },
+    { name: "Imprint", path: "/imprint" },
     { name: t('navigation.contact'), path: "/contact" },
   ];
 
@@ -98,7 +99,7 @@ const Footer = () => {
                 >
                   {t('sections.navigationTitle')}
                 </motion.h5>
-                <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-muted-foreground text-sm">
+                <div className="grid grid-cols-3 gap-x-6 gap-y-2 text-muted-foreground text-sm">
                   {navLinks.map((link, index) => (
                     <Link
                       to={link.path}

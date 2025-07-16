@@ -7,7 +7,9 @@
     "dev": "vite --port 5175 --host 0.0.0.0",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "git add . && git commit -m 'deploy' && git push && ./deploy.sh"
+
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
