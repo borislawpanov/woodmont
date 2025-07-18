@@ -34,8 +34,8 @@ const Footer = () => {
     { name: t('navigation.faq'), path: "/learning/faq" },
     { name: t('navigation.plans'), path: "/plans" },
     { name: t('navigation.about'), path: "/about" },
-    { name: "Legal Info", path: "/legal-info" },
-    { name: "Imprint", path: "/imprint" },
+    { name: t('navigation.legalInfo'), path: "/legal-info" },
+    { name: t('navigation.imprint'), path: "/imprint" },
     { name: t('navigation.contact'), path: "/contact" },
   ];
 
