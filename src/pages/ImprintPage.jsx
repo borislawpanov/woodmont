@@ -51,7 +51,9 @@ export const ImprintPage = () => {
           <p className="mb-2"><strong>Chief Financial Officer (CFO):</strong> Clara Weissmann</p>
           <p className="mb-2">CRD#: 836194750</p>
           <p className="mb-2"><strong>Chief Technology Officer (CTO):</strong> Marek Nowak</p>
-          <p className="mb-6">CRD#: 3058274</p>
+          <p className="mb-2">CRD#: 3058274</p>
+          <p className="mb-2"><strong>Chief Operating Officer (COO):</strong> Marcus Thompson</p>
+          <p className="mb-6">CRD#: 947382651</p>
 
           <h3 className="text-xl font-medium mb-2 inline-block">
             Tax Identification
