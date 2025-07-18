@@ -85,7 +85,7 @@ const Imprint = () => {
                 <li key={index}>
                   <Button
                     variant="link"
-                    className={`p-0 text-left text-sm hover:text-primary h-auto leading-tight whitespace-normal ${
+                    className={`p-0 text-left text-sm hover:text-primary h-auto leading-tight whitespace-normal rounded-none ${
                       activeId === `imprint-${index}`
                         ? "text-primary font-semibold"
                         : "text-muted-foreground"

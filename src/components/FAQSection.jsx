@@ -5,16 +5,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const faqData = [
   {
-    question: "Can trading replace my day job?",
-    answer: `Yes. Well… maybe. The main reason most people start trading is to earn money, often to supplement income. Few trade professionally. To replace a $60,000 annual pre-tax income with trading, you'd need $631,578 at a 9.5% annual return (S&P 500 average) or $133,332 at a 45% return, assuming no reinvestment. Consistency is key—high returns require high risks, making long-term downside control tough. Trading demands dedication, discipline, and deep market knowledge. Most realistically, build a trading account with small contributions to supplement income. Think twice before quitting your job.`,
+    question: "Can AI trading replace traditional investment strategies?",
+    answer: `AI trading can significantly enhance and, in many cases, outperform traditional strategies, but it's not a complete replacement for all investment approaches. AI algorithms excel at processing vast amounts of market data, identifying patterns, and executing trades with precision that human traders cannot match. Our AI-powered platform at Woodmont analyzes real-time market conditions across forex, commodities, indices, and crypto CFDs to optimize portfolio performance automatically. However, combining AI automation with human oversight and strategic planning often yields the best results. AI handles the technical execution and rapid market analysis, while human judgment guides overall strategy and risk tolerance.`,
   },
   {
-    question: "Is trading the same as gambling?",
-    answer: `No, but it can feel like it if mishandled. Trading isn't gambling if approached with a methodology and plan. Gambling behavior, like myopic loss aversion (taking bigger risks when avoiding outcomes), can creep in. Recognize it, evaluate mistakes, and stick to due diligence. Understanding your risk propensity is as crucial as market knowledge. You decide if trading is a profession or a game of chance.`,
+    question: "How does AI trading differ from automated trading bots?",
+    answer: `AI trading goes far beyond simple automated bots. While basic trading bots follow pre-programmed rules, AI systems like Woodmont's use machine learning algorithms that continuously adapt and improve from market data. Our AI analyzes multiple variables simultaneously—technical indicators, market sentiment, news events, and historical patterns—to make intelligent decisions. Traditional bots might execute trades based on simple triggers like price movements, but AI systems understand context, predict market trends, and adjust strategies in real-time. The key difference is learning capability: AI gets smarter with each trade, while bots remain static.`,
   },
   {
-    question: "How much money should I start trading with?",
-    answer: `Depends on goals. For learning, small amounts are fine, but as experience grows, it should be worth your time. Trading small changes risk perception—losing $1,000 feels different than $10,000. Paper trading helps learn navigation but can breed overconfidence. Eventually, trade enough capital to matter—$50/month may suffice for some, not others. With limited capital, reinvest gains to compound returns. You can start a diversified portfolio with less than $10.`,
+    question: "What capital do I need to start AI-powered CFD trading?",
+    answer: `You can start AI-powered CFD trading with as little as $250-$500, depending on your chosen account type. CFDs (Contracts for Difference) offer leverage, meaning you can control larger positions with smaller capital. Our AI algorithms are designed to work effectively across different account sizes, optimizing position sizing and risk management based on your available capital. For learning and testing, you can start with smaller amounts to understand how AI trading works. As confidence grows, many traders increase their capital to maximize the AI's potential for portfolio optimization and profit generation.`,
   },
   {
     question: "Does technical analysis work?",
@@ -91,7 +91,7 @@ const FAQArticle = () => {
                 <li key={index}>
                   <Button
                     variant="link"
-                    className={`p-0 text-left text-sm hover:text-primary h-auto leading-tight whitespace-normal ${
+                    className={`p-0 text-left text-sm hover:text-primary h-auto leading-tight whitespace-normal rounded-none ${
                       activeId === `faq-${index}` ? "text-primary font-semibold" : "text-muted-foreground"
                     }`}
                     onClick={() => scrollToFAQ(index)}
