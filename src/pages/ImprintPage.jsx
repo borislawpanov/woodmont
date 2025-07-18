@@ -1,137 +1,203 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import DefaultLayout from "../layouts/DefaultLayout";
 import PageHeader from "../sections/common/PageHeader";
+import { domain, contactPhone, contactAddress } from "../constants";
 
 export const ImprintPage = () => {
+  const { t } = useTranslation("imprint-page");
+
   return (
     <DefaultLayout>
-      <PageHeader
-        title="Impressum"
-        align="center"
-        description="Legal information and company details for Woodmont Ventures."
-      />
-      <div className="container mx-auto px-4 py-12 max-w-4xl">
+
+      <div className="container mx-auto px-4 py-16 max-w-4xl">
         <div className="prose prose-lg mx-auto text-foreground">
           
-          <h2 className="text-2xl font-semibold mb-2 inline-block">
-            Woodmont Ventures – Excellence in Financial Services
-          </h2>
-          <hr className="w-fit border-gray-300 mb-6" />
+          <div className="mb-12 pb-8 border-b border-border">
+            <h1 className="text-3xl font-bold text-foreground mb-4 tracking-tight">
+              {t("mainTitle")}
+            </h1>
+            <div className="h-1 w-20 bg-primary rounded-full"></div>
+          </div>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Company Information
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-2"><strong>Company Name:</strong> Woodmont Ventures</p>
-          <p className="mb-2"><strong>Legal Form:</strong> Limited Liability Company (LLC)</p>
-          <p className="mb-6"><strong>CRD Number:</strong> 183506</p>
+          <section className="mb-10 pb-6 border-b border-border/50">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.companyInfo.title")}
+            </h3>
+            <div className="space-y-2 text-muted-foreground">
+              <p><span className="font-medium text-foreground">{t("sections.companyInfo.companyName")}</span> {t("sections.companyInfo.companyNameValue")}</p>
+              <p><span className="font-medium text-foreground">{t("sections.companyInfo.legalForm")}</span> {t("sections.companyInfo.legalFormValue")}</p>
+              <p><span className="font-medium text-foreground">{t("sections.companyInfo.crdNumber")}</span> {t("sections.companyInfo.crdNumberValue")}</p>
+            </div>
+          </section>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Head Office
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-2">Woodmont Ventures</p>
-          <p className="mb-2">1170 Peachtree Street NE, Suite 300</p>
-          <p className="mb-6">Atlanta, GA 30309</p>
+          <section className="mb-10 pb-6 border-b border-border/50">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.headOffice.title")}
+            </h3>
+            <div className="space-y-1 text-muted-foreground">
+              <p>{t("sections.headOffice.companyName")}</p>
+              <p>{contactAddress}</p>
+            </div>
+          </section>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Contact Information
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-2"><strong>Phone:</strong> +49 3221 2248153</p>
-          <p className="mb-2"><strong>Email:</strong> info@woodmont.ai</p>
-          <p className="mb-6"><strong>Website:</strong> woodmont.ai</p>
+          <section className="mb-10 pb-6 border-b border-border/50">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.contactInfo.title")}
+            </h3>
+            <div className="space-y-2 text-muted-foreground">
+              <p><span className="font-medium text-foreground">{t("sections.contactInfo.phone")}</span> {contactPhone}</p>
+              <p><span className="font-medium text-foreground">{t("sections.contactInfo.email")}</span> info@{domain}</p>
+              <p><span className="font-medium text-foreground">{t("sections.contactInfo.website")}</span> {domain}</p>
+            </div>
+          </section>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Executive Team
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-2"><strong>Chief Executive Officer (CEO):</strong> Niklas Krieger</p>
-          <p className="mb-2">CRD#: 729406183</p>
-          <p className="mb-2"><strong>Chief Financial Officer (CFO):</strong> Clara Weissmann</p>
-          <p className="mb-2">CRD#: 836194750</p>
-          <p className="mb-2"><strong>Chief Technology Officer (CTO):</strong> Marek Nowak</p>
-          <p className="mb-2">CRD#: 3058274</p>
-          <p className="mb-2"><strong>Chief Operating Officer (COO):</strong> Marcus Thompson</p>
-          <p className="mb-6">CRD#: 947382651</p>
+          <section className="mb-10 pb-6 border-b border-border/50">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.executiveTeam.title")}
+            </h3>
+            <div className="space-y-3 text-muted-foreground">
+              <div>
+                <p><span className="font-medium text-foreground">{t("sections.executiveTeam.ceo")}</span> {t("sections.executiveTeam.ceoName")}</p>
+                <p className="text-sm">{t("sections.executiveTeam.ceoCrd")}</p>
+              </div>
+              <div>
+                <p><span className="font-medium text-foreground">{t("sections.executiveTeam.cfo")}</span> {t("sections.executiveTeam.cfoName")}</p>
+                <p className="text-sm">{t("sections.executiveTeam.cfoCrd")}</p>
+              </div>
+              <div>
+                <p><span className="font-medium text-foreground">{t("sections.executiveTeam.cto")}</span> {t("sections.executiveTeam.ctoName")}</p>
+                <p className="text-sm">{t("sections.executiveTeam.ctoCrd")}</p>
+              </div>
+              <div>
+                <p><span className="font-medium text-foreground">{t("sections.executiveTeam.coo")}</span> {t("sections.executiveTeam.cooName")}</p>
+                <p className="text-sm">{t("sections.executiveTeam.cooCrd")}</p>
+              </div>
+            </div>
+          </section>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Tax Identification
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-2"><strong>VAT Identification Number:</strong> 827-34916</p>
-          <p className="mb-2"><strong>Excise Tax Identification Number:</strong> FFHY4NXLQPP02</p>
-          <p className="mb-6"><strong>Income Tax Number:</strong> 5062-381-794</p>
+          <section className="mb-10 pb-6 border-b border-border/50">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.taxId.title")}
+            </h3>
+            <div className="space-y-2 text-muted-foreground">
+              <p><span className="font-medium text-foreground">{t("sections.taxId.vatNumber")}</span> {t("sections.taxId.vatNumberValue")}</p>
+              <p><span className="font-medium text-foreground">{t("sections.taxId.exciseNumber")}</span> {t("sections.taxId.exciseNumberValue")}</p>
+              <p><span className="font-medium text-foreground">{t("sections.taxId.incomeNumber")}</span> {t("sections.taxId.incomeNumberValue")}</p>
+            </div>
+          </section>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Regulated Activities
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-4">Woodmont Ventures is proud to operate under the highest standards of U.S. financial regulations and offers a variety of specialized services:</p>
-          
-          <p className="mb-4"><strong>Licensed Insurance Broker:</strong> Approved under US federal insurance regulations, license number US-INS-74029, for comprehensive protection and advice on insurance products.</p>
-          
-          <p className="mb-4"><strong>Licensed Financial Investment Broker:</strong> Registered with the U.S. Securities and Exchange Commission (SEC), license number US-FIN-51937, for professional investment and financial planning management.</p>
-          
-          <p className="mb-6"><strong>Certified Wealth Management Advisor:</strong> Accredited by the Financial Industry Regulatory Authority (FINRA), certificate number US-WMC-68294, specializing in customized wealth strategies.</p>
+          <section className="mb-10 pb-6 border-b border-border/50">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.regulatedActivities.title")}
+            </h3>
+            <div className="space-y-4 text-muted-foreground">
+              <p>{t("sections.regulatedActivities.intro")}</p>
+              
+              <div className="space-y-3 ml-4">
+                <p><span className="font-medium text-foreground">{t("sections.regulatedActivities.insuranceBroker")}</span> {t("sections.regulatedActivities.insuranceBrokerDesc")}</p>
+                
+                <p><span className="font-medium text-foreground">{t("sections.regulatedActivities.investmentBroker")}</span> {t("sections.regulatedActivities.investmentBrokerDesc")}</p>
+                
+                <p><span className="font-medium text-foreground">{t("sections.regulatedActivities.wealthAdvisor")}</span> {t("sections.regulatedActivities.wealthAdvisorDesc")}</p>
+              </div>
+            </div>
+          </section>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Professional Regulations
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-4">Our activities comply with a comprehensive framework of U.S. financial regulations, including:</p>
-          <ul className="mb-4 list-disc pl-6">
-            <li>U.S. Federal Insurance Regulations</li>
-            <li>U.S. Securities Exchange Act of 1934</li>
-            <li>Rules of the Financial Industry Regulatory Authority (FINRA)</li>
-            <li>Guidelines of the National Association of Insurance Commissioners (NAIC)</li>
-          </ul>
-          <p className="mb-6">These regulations can be found at SEC.gov and NAIC.org and reflect our commitment to transparency and regulatory excellence.</p>
+          <section className="mb-10 pb-6 border-b border-border/50">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.professionalRegulations.title")}
+            </h3>
+            <div className="space-y-4 text-muted-foreground">
+              <p>{t("sections.professionalRegulations.intro")}</p>
+              <ul className="list-disc pl-6 space-y-1">
+                {t("sections.professionalRegulations.regulations", { returnObjects: true }).map((regulation, index) => (
+                  <li key={index}>{regulation}</li>
+                ))}
+              </ul>
+              <p>{t("sections.professionalRegulations.outro")}</p>
+            </div>
+          </section>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Sustainability and Ethical Commitment
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-6">At Woodmont Ventures, sustainability is a core value. When selecting insurance and investment products, we currently consider only client-provided data. We actively follow global sustainability trends and plan to integrate a broader approach soon, including Environmental, Social, and Governance (ESG) factors as standard practice. Our commitment to ethical conduct by our employees and sub-brokers remains unwavering and is not affected by sustainability risks.</p>
+          <section className="mb-10 pb-6 border-b border-border/50">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.sustainability.title")}
+            </h3>
+            <div className="text-muted-foreground">
+              <p>{t("sections.sustainability.content")}</p>
+            </div>
+          </section>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Ownership Structure and Affiliations
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-6">Woodmont Ventures maintains full independence in its operations. There is no direct or indirect ownership of more than 10% in the voting rights or capital of any investment or insurance company. Likewise, no investment or insurance company holds a direct or indirect stake of more than 10% in our company, ensuring impartial and client-focused service.</p>
+          <section className="mb-10 pb-6 border-b border-border/50">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.ownershipStructure.title")}
+            </h3>
+            <div className="text-muted-foreground">
+              <p>{t("sections.ownershipStructure.content")}</p>
+            </div>
+          </section>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Professional Liability Insurance
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-6">Woodmont Ventures has a comprehensive financial liability insurance policy that is fully compliant with US federal financial regulations. This policy, underwritten by a leading US insurer, provides up to 8 million in coverage and creates an additional layer of security for our clients and partners.</p>
+          <section className="mb-10 pb-6 border-b border-border/50">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.liabilityInsurance.title")}
+            </h3>
+            <div className="text-muted-foreground">
+              <p>{t("sections.liabilityInsurance.content")}</p>
+            </div>
+          </section>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Dispute Resolution
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-4">Woodmont Ventures is committed to resolving disputes efficiently and fairly. We are obliged to participate in an out-of-court dispute resolution process through an appointed consumer arbitration body.</p>
-          <p className="mb-6">Consumers with disputes related to online purchases or service contracts should use the EU Online Dispute Resolution platform: Online Dispute Resolution | European Commission. For direct support, please contact us at support@woodmont.vip. This platform is operated independently to ensure a neutral resolution.</p>
+          <section className="mb-10 pb-6 border-b border-border/50">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.disputeResolution.title")}
+            </h3>
+            <div className="space-y-4 text-muted-foreground">
+              <p>{t("sections.disputeResolution.intro")}</p>
+              <p>{t("sections.disputeResolution.outro")}</p>
+            </div>
+          </section>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Legal Notice
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-6">Information on online dispute resolution for consumer matters is available. The European Commission launched the Online Dispute Resolution platform (ODR) on February 15, 2018, accessible at: Your Europe portal. Woodmont Ventures is currently not participating in this ODR platform dispute resolution procedure but remains open to alternative resolution channels if required.</p>
+          <section className="mb-10 pb-6 border-b border-border/50">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.legalNotice.title")}
+            </h3>
+            <div className="text-muted-foreground">
+              <p>{t("sections.legalNotice.content")}</p>
+            </div>
+          </section>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Disclaimer
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-4">Woodmont Ventures strives to ensure the accuracy and timeliness of the content on our website. We regularly update and refine the provided information to meet the needs of our clients.</p>
-          <p className="mb-4">However, we cannot guarantee or assume liability for the accuracy, completeness, or timeliness of the presented data. Links to external websites are beyond our control, and we expressly disclaim responsibility for their content or any liability arising from them.</p>
-          <p className="mb-6">We assume full responsibility for the content and design of our website. Any use of content, images, graphics, audio, video, or animation data from the Woodmont Ventures website, including information and images, requires prior written permission from our company. Unauthorized use is strictly prohibited and may result in legal action.</p>
+          <section className="mb-10 pb-6 border-b border-border/50">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.disclaimer.title")}
+            </h3>
+            <div className="space-y-4 text-muted-foreground">
+              <p>{t("sections.disclaimer.accuracy")}</p>
+              <p>{t("sections.disclaimer.liability")}</p>
+              <p>{t("sections.disclaimer.copyright")}</p>
+            </div>
+          </section>
 
-          <h3 className="text-xl font-medium mb-2 inline-block">
-            Commitment to Excellence
-          </h3>
-          <hr className="w-fit border-gray-200 mb-4" />
-          <p className="mb-6">Founded with a vision to provide unparalleled financial services, Woodmont Ventures combines innovative technology with expert advice to empower our clients. Our Atlanta headquarters serves as a center for strategic growth, supported by a team of experienced professionals dedicated to excellence. We invite you to explore our services and join us in shaping a secure financial future.</p>
+          <section className="mb-8">
+            <h3 className="text-xl font-semibold mb-4 text-foreground flex items-center gap-3">
+              <div className="h-2 w-2 bg-primary rounded-full"></div>
+              {t("sections.commitment.title")}
+            </h3>
+            <div className="text-muted-foreground">
+              <p>{t("sections.commitment.content")}</p>
+            </div>
+          </section>
 
         </div>
       </div>
