@@ -7,7 +7,7 @@ import { contactPhone, contactEmail, contactAddress } from "../../constants";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const { t } = useTranslation('footer');
+  const { t } = useTranslation('footer_v1');
 
   const cardVariants = {
     hidden: { opacity: 0, y: 50 },
