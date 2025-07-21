@@ -52,6 +52,7 @@
   "features": {
     "marketReport": "Market Report",
     "aiTradingTestSession": "AI Trading (1 test session)",
+    "aiTradingOneFullSession": "AI Trading (1 full session)",
     "aiTradingTwoSessions": "AI Trading (2 full sessions)",
     "aiTradingFiveSessions": "AI Trading (5 full sessions)",
     "aiTradingEightSessions": "AI Trading (8 full sessions)",

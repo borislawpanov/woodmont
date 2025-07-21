@@ -52,6 +52,7 @@
   "features": {
     "marketReport": "Marktbericht",
     "aiTradingTestSession": "KI-Trading (1 Testsitzung)",
+    "aiTradingOneFullSession": "KI-Trading (1 vollständige Sitzung)",
     "aiTradingTwoSessions": "KI-Trading (2 vollständige Sitzungen)",
     "aiTradingFiveSessions": "KI-Trading (5 vollständige Sitzungen)",
     "aiTradingEightSessions": "KI-Trading (8 vollständige Sitzungen)",
