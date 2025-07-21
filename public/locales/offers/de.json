@@ -95,6 +95,7 @@
     "vipTradingSignals": "VIP-Handelssignale",
     "tradingSessions": "Handelssitzungen",
     "dividendAllocation": "Dividendenallokation",
-    "autoStaking": "Auto-Staking"
+    "autoStaking": "Auto-Staking",
+    "aiArbitrage": "KI-Arbitrage"
   }
 }
