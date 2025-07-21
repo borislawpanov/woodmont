@@ -25,6 +25,8 @@ import {
   University,
   AlarmCheck,
   ChartArea,
+  Brain,
+  Sparkles,
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
@@ -49,11 +51,11 @@ const categories = ["standard", "advanced", "savings"];
 
 const allOffers = {
   realTimeData: { key: "marketReport", icon: ChartArea },
-  aiSignals: { key: "aiTradingTestSession", icon: Bot },
-  aiSignalsGold: { key: "aiTradingTwoSessions", icon: Bot },
-  aiSignalsPlatinum: { key: "aiTradingFiveSessions", icon: Bot },
-  aiSignalsDiamond: { key: "aiTradingEightSessions", icon: Bot },
-  aiSignalsVIP: { key: "aiTradingUnlimited", icon: Bot },
+  aiSignals: { key: "aiTradingTestSession", icon: Brain },
+  aiSignalsGold: { key: "aiTradingTwoSessions", icon: Brain },
+  aiSignalsPlatinum: { key: "aiTradingFiveSessions", icon: Brain },
+  aiSignalsDiamond: { key: "aiTradingEightSessions", icon: Brain },
+  aiSignalsVIP: { key: "aiTradingUnlimited", icon: Brain },
   tradingSignal: { key: "tradingSignal", icon: AlarmCheck },
   portfolioTracking: { key: "portfolioAnalysis", icon: PieChart },
   secureWallet: { key: "insuredPositions", icon: ShieldCheck },
@@ -94,7 +96,7 @@ const allOffers = {
   tradingSessions: { key: "tradingSessions", icon: Zap },
   dividendAllocation: { key: "dividendAllocation", icon: PieChart },
   autoStaking: { key: "autoStaking", icon: Lock },
-  aiArbitrage: { key: "aiArbitrage", icon: Bot },
+  aiArbitrage: { key: "aiArbitrage", icon: Sparkles },
 };
 
 const cardsData = [
