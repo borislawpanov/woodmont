@@ -52,9 +52,9 @@ const categories = ["standard", "advanced", "savings"];
 const allOffers = {
   realTimeData: { key: "marketReport", icon: ChartArea },
   aiSignals: { key: "aiTradingTestSession", icon: Brain },
-  aiSignalsBronze: { key: "aiTradingTwoTestSessions", icon: Brain },
-  aiSignalsBronzeFull: { key: "aiTradingOneFullSession", icon: Brain },
-  aiSignalsSilver: { key: "aiTradingTwoFullSessions", icon: Brain },
+  aiSignalsBronze: { key: "aiTradingTwoSessions", icon: Brain },
+  aiSignalsBronzeFull: { key: "aiTradingTwoSessions", icon: Brain },
+  aiSignalsSilver: { key: "aiTradingTwoSessions", icon: Brain },
   aiSignalsGold: { key: "aiTradingFiveSessions", icon: Brain },
   aiSignalsPlatinum: { key: "aiTradingEightSessions", icon: Brain },
   aiSignalsDiamond: { key: "aiTradingUnlimitedFull", icon: Brain },
