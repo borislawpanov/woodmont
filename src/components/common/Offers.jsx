@@ -288,7 +288,7 @@ const cardsData = [
 ];
 
 const PricingSection = () => {
-  const { t } = useTranslation('offers');
+  const { t } = useTranslation('offers_v1');
   const [activeCategory, setActiveCategory] = useState(categories[0]);
 
   const activeCards =
