@@ -53,7 +53,7 @@ const allOffers = {
   realTimeData: { key: "marketReport", icon: ChartArea },
   aiSignals: { key: "aiTradingTestSession", icon: Brain },
   aiSignalsBronze: { key: "aiTradingTwoSessions", icon: Brain },
-  aiSignalsBronzeFull: { key: "aiTradingTestSession", icon: Brain },
+  aiSignalsBronzeFull: { key: "aiTradingOneFullSession", icon: Brain },
   aiSignalsSilver: { key: "aiTradingTwoSessions", icon: Brain },
   aiSignalsGold: { key: "aiTradingFiveSessions", icon: Brain },
   aiSignalsPlatinum: { key: "aiTradingEightSessions", icon: Brain },
